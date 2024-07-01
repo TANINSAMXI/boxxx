@@ -5,10 +5,20 @@
 .container{
     display: flex;
     margin: auto;
+    margin-top: 100px;
     height: 300px;
     width: 300px;
     border: red solid 3px;
+    animation-name: changes;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
 
+}
+@keyframes changes {
+    0%{ border: red solid 3px;rotate: 9000deg}
+    25%{border: aqua solid 3px;rotate: 11900deg}
+    50%{border: antiquewhite solid 3px;rotate: 21600deg}
+    100%{border: aquamarine solid 3px;rotate: 31900deg}
 }
 .box1{
     display: flex;
