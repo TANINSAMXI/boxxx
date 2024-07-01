@@ -1,0 +1,27 @@
+.body{
+
+
+}
+.container{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: red solid 3px;
+
+}
+.box1{
+    display: flex;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: blue solid 2px;
+
+}
+.box2{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: green solid 2px;
+}
